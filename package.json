@@ -1,0 +1,27 @@
+{
+  "name": "gr-log",
+  "version": "1.0.3",
+  "description": "A Plugin For me to experiment Apollo Server plugin lifecycle event",
+  "main": "dist",
+  "types": "plugin.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test-server": "rm -rf dist && tsc && node dist/test/server.js",
+    "prepare": "rm -rf dist && tsc"
+  },
+  "repository": "",
+  "author": "Jarupong Pajakgo <lagmanmc@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "apollo-server": "^2.15.0",
+    "apollo-server-errors": "^2.4.1",
+    "apollo-server-plugin-base": "^0.9.0",
+    "graphql": "^15.1.0",
+    "node-fetch": "^2.6.0",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0"
+  }
+}
